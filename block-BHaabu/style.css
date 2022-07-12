@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background: url(./valley.png) no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+  margin: 30px auto;
+}
+.upper-box {
+  display: flex;
+  justify-content: space-evenly;
+  /* height: 400px; */
+  /* width: 400px; */
+  /* border: 2px solid red; */
+}
+.box-1 {
+  height: 300px;
+  width: 300px;
+  /* border: 2px solid red; */
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: red;
+}
+.box-2 {
+  height: 300px;
+  width: 300px;
+  /* border: 2px solid red; */
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, black 20%, red 80%);
+}
+.box-3 {
+  height: 300px;
+  width: 300px;
+  /* border: 2px solid red; */
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+
+  background-image: radial-gradient(red, maroon, black);
+}
+.lower-box {
+  height: 300px;
+  width: 500px;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 7%;
+
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+}
+.box-4 {
+  height: 300px;
+  width: 500px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  background: url(./city.png) no-repeat, rgb(185, 138, 49);
+  /* border: 2px solid green; */
+  background-size: cover;
+}
