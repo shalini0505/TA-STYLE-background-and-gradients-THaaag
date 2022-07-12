@@ -1,0 +1,294 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* custome-styles */
+body {
+  background-color: #21222f;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+p {
+  font-size: 15px;
+  color: rgba(248, 241, 241, 0.616);
+  margin-top: 10px;
+}
+.button {
+  height: 15px;
+  width: 30px;
+  border: 2px solid aquamarine;
+  background-color: aquamarine;
+  border-radius: 40%;
+}
+.upper-right {
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: middle;
+}
+.dark {
+  vertical-align: middle;
+  margin: 0 10px 10px 0;
+}
+.box-1 {
+  height: 200px;
+  width: 200px;
+  /* display: flex; */
+  /* border: 2px solid red; */
+  background-color: #252b43;
+  /* margin: auto 0; */
+}
+.upper-sec {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 30px;
+  /* background-color: #252b43; */
+}
+.fab {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.inline {
+  display: inline-block;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 800;
+  margin: 20px 0;
+  color: white;
+}
+.follower {
+  color: gray;
+  letter-spacing: 2px;
+}
+small {
+  color: green;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-top: 20px;
+}
+.fab-a {
+  color: blue;
+}
+.twitter-a {
+  color: skyblue;
+}
+.youtube-a {
+  color: red;
+}
+.insta-a {
+}
+.youtube-small {
+  color: red;
+}
+/* section-2 */
+h3 {
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+  margin: 20px 0;
+}
+.lower-fab {
+  display: flex;
+  justify-content: space-between;
+}
+.box-5 {
+  height: 100px;
+  width: 200px;
+  /* border: 2px solid red; */
+  background-color: #252b43;
+}
+.fab-a-lower {
+  color: blue;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.lower-p {
+  margin-left: 15px;
+}
+.box-5-h4 {
+  display: flex;
+  justify-content: space-between;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 35px;
+  color: white;
+  margin-left: 15px;
+}
+.lower-small {
+  margin-top: 35px;
+  margin-right: 15px;
+}
+.lower-sec-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+.insta-a-lower {
+  color: purple;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.twit-a-lower {
+  margin-top: 20px;
+  margin-right: 15px;
+  color: skyblue;
+}
+.youtube-a-lower {
+  margin-top: 20px;
+  margin-right: 15px;
+  color: red;
+}
+.box-4-1 {
+  border-top: 4px solid rgb(46, 13, 233);
+}
+.box-4-2 {
+  border-top: 4px solid rgb(46, 13, 233);
+}
+.box-4-3 {
+  border-top: 4px solid rgb(182, 13, 233);
+}
+.box-4-4 {
+  border-top: 4px solid red;
+}
